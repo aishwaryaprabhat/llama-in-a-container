@@ -1,5 +1,6 @@
 # 🦙Llama in a Container📦
 ![](assets/llama.png)
+
 Llama in a Container is your one-stop solution for quickly getting up and running with Llama2 Language Model! This project provides a Docker container that you can start with just one command, allowing you to seamlessly use Llama2 for your Natural Language Processing (NLP) tasks. 🚀
 
 ## Features 🌟
