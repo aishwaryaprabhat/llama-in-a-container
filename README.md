@@ -18,16 +18,26 @@ Before you dive into the world of Llama2 with this container, make sure you have
 
 ## Usage 🚀
 
-## Run right away 🏃‍♂️ 
-There is a pre-built container ready and waiting for you to run and start tinkering with Llama2:
+## Option 1: Run right away 🏃‍♂️ 
+There is a pre-built container ready and waiting for you to run and start tinkering with Llama2. Just run
 
 ```bash
-docker run -p 8888:8888 -e HUGGINGFACEHUB_API_TOKEN=<YOUR_API_TOKEN> -e DOWNLOAD_LATER=false aishwaryaprabhat/llama-in-a-container:v1
+docker run -p 8888:8888 -e HUGGINGFACEHUB_API_TOKEN=<YOUR_API_TOKEN> aishwaryaprabhat/llama-in-a-container:v1
 ```
 
 Replace `YOUR_API_TOKEN` with your Hugging Face Hub API token. If you don't have an API token, you can obtain one from [Hugging Face](https://huggingface.co/docs/hub/security-tokens). 🛡️
 
-## Dip into the sauce (source) 🥫
+Depending on the speed of model download, you should soon see the following on your terminal:
+![](assets/docker_command.png)
+
+Once the container is up and running, access Jupyter Lab by opening your web browser and navigating to:
+
+```
+http://localhost:8888/lab
+```
+There is some code waiting and ready in [Example.ipynb](Example.ipynb) for you to get your hands dirty!
+![](assets/notebook.png)
+## Option 2: Dip into the sauce (source) 🥫
 If you'd like to play around with the Dockerfile or any of the other scripts...
 
 #### 1. Clone the Repository 🧑‍💻
