@@ -94,6 +94,6 @@ If you encounter any issues or have suggestions for improvements, please feel fr
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📜
+This project is licensed under the [Llama2 Community License](LICENSE) file for details. 📜
 
 Happy llama-ing! 🦙📦
