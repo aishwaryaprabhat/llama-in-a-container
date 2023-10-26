@@ -24,8 +24,9 @@ COPY entrypoint.sh .
 COPY requirements.txt .
 COPY Example.ipynb .
 
-# Set execute permissions on the entrypoint script
-RUN chmod +x entrypoint.sh
+# Set execute permissions on the necessary scripts
+RUN chmod +rx entrypoint.sh
+RUN chmod +rx download_model.py
 
 # Install required Python packages
 RUN pip install -r requirements.txt
